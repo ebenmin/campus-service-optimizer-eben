@@ -1,0 +1,31 @@
+resource_id,resource_type,home_location_id,capacity,availability_status
+P001,Security Patrol Car,L048,3,BUSY
+M002,Maintenance Cart,L032,1,AVAILABLE
+M003,Maintenance Cart,L030,1,AVAILABLE
+P004,Security Patrol Car,L021,3,AVAILABLE
+S005,Security Officer,L040,1,BUSY
+V006,Shuttle Van,L020,13,AVAILABLE
+V007,Shuttle Van,L002,13,OFFLINE
+P008,Security Patrol Car,L002,2,AVAILABLE
+M009,Maintenance Cart,L039,2,AVAILABLE
+T010,IT Technician,L014,1,BUSY
+V011,Shuttle Van,L022,12,AVAILABLE
+M012,Maintenance Cart,L023,2,AVAILABLE
+T013,IT Technician,L032,1,AVAILABLE
+V014,Shuttle Van,L031,8,BUSY
+V015,Shuttle Van,L017,10,BUSY
+S016,Security Officer,L002,1,AVAILABLE
+M017,Maintenance Cart,L043,1,AVAILABLE
+V018,Shuttle Van,L033,14,AVAILABLE
+T019,IT Technician,L034,1,BUSY
+P020,Security Patrol Car,L007,4,BUSY
+M021,Maintenance Cart,L018,1,AVAILABLE
+T022,IT Technician,L045,1,BUSY
+S023,Security Officer,L029,1,BUSY
+T024,IT Technician,L042,1,AVAILABLE
+S025,Security Officer,L034,1,BUSY
+T026,IT Technician,L041,1,AVAILABLE
+P027,Security Patrol Car,L031,2,AVAILABLE
+P028,Security Patrol Car,L031,2,AVAILABLE
+V029,Shuttle Van,L014,14,AVAILABLE
+S030,Security Officer,L028,1,AVAILABLE

@@ -1,0 +1,51 @@
+location_id,name,area,location_type,x_coord,y_coord
+L001,Balme Library,Main Campus,Academic,-0.187067,5.651959
+L002,Commonwealth Hall,Main Campus,Residential,-0.193348,5.651326
+L003,Department of Computer Science,Main Campus,Academic,-0.191617,5.650366
+L004,Great Hall,Main Campus,Administrative,-0.1888,5.6534
+L005,Legon Hall,Main Campus,Residential,-0.1884,5.65
+L006,Volta Hall,Main Campus,Residential,-0.189987,5.652539
+L007,Akuafo Hall,Main Campus,Residential,-0.186259,5.649439
+L008,Mensah Sarbah Hall,Main Campus,Residential,-0.188136,5.645382
+L009,Jubilee Hall,South Campus,Residential,-0.186786,5.641102
+L010,Elizabeth Frances Sey Hall,Diaspora,Residential,-0.187374,5.635051
+L011,Jean Nelson Aka Hall,Diaspora,Residential,-0.1861,5.6345
+L012,Alexander Kwapong Hall,Diaspora,Residential,-0.1855,5.6338
+L013,Hilla Limann Hall,Diaspora,Residential,-0.1848,5.6329
+L014,International Students Hostel,South Campus,Residential,-0.186871,5.640244
+L015,Noguchi Memorial Institute for Medical Research,South Campus,Research,-0.183332,5.634208
+L016,Department of Earth Science,Main Campus,Academic,-0.18405,5.651109
+L017,UG Botanical Gardens,North Campus,Recreational,-0.190654,5.660087
+L018,University of Ghana Business School (UGBS),North Campus,Academic,-0.1852,5.6567
+L019,School of Law,Main Campus,Academic,-0.1865,5.6541
+L020,Department of Mathematics,Main Campus,Academic,-0.1901,5.6512
+L021,Central Cafeteria,Main Campus,Dining,-0.1892,5.6518
+L022,Registry (Administration),Main Campus,Administrative,-0.1872,5.6491
+L023,School of Performing Arts,Main Campus,Academic,-0.1923,5.6485
+L024,UG Sports Stadium,Main Campus,Recreational,-0.1945,5.6458
+L025,Night Market,Main Campus,Commercial,-0.1855,5.6472
+L026,University Hospital,South Campus,Medical,-0.1842,5.6405
+L027,Institute of African Studies,Main Campus,Academic,-0.1889,5.6552
+L028,Department of Economics,Main Campus,Academic,-0.1876,5.6548
+L029,School of Engineering Sciences,North Campus,Academic,-0.1831,5.6575
+L030,J.B. Danquah Avenue Gate,Campus Border,Entrance,-0.1825,5.6483
+L031,Department of Physics,Main Campus,Academic,-0.1905,5.6521
+L032,Department of Chemistry,Main Campus,Academic,-0.1895,5.6523
+L033,Department of Botany,Main Campus,Academic,-0.1885,5.6525
+L034,Department of Zoology,Main Campus,Academic,-0.1875,5.6527
+L035,School of Public Health,South Campus,Academic,-0.1835,5.635
+L036,School of Pharmacy,South Campus,Academic,-0.1845,5.636
+L037,Department of Geography and Resource Development,Main Campus,Academic,-0.1865,5.6535
+L038,Department of Political Science,Main Campus,Academic,-0.1875,5.6555
+L039,Department of Sociology,Main Campus,Academic,-0.1885,5.656
+L040,Department of Psychology,Main Campus,Academic,-0.1895,5.6565
+L041,Language Centre,Main Campus,Academic,-0.186,5.651
+L042,Confucius Institute,Main Campus,Academic,-0.185,5.6515
+L043,Maison Francaise,Main Campus,Academic,-0.184,5.652
+L044,Absa Bank Legon Branch,Main Campus,Commercial,-0.188,5.648
+L045,GCB Bank Legon Campus,Main Campus,Commercial,-0.187,5.6485
+L046,University Post Office,Main Campus,Commercial,-0.1875,5.649
+L047,Legon Police Station,Campus Border,Administrative,-0.182,5.647
+L048,St. Thomas Aquinas Catholic Church,Main Campus,Religious,-0.189,5.6505
+L049,Legon Interdenominational Church,Main Campus,Religious,-0.185,5.646
+L050,Okponglo Gate,Campus Border,Entrance,-0.181,5.645
