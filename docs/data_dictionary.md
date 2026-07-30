@@ -50,14 +50,33 @@ Fill this in as you finalise each CSV/table. One row per field.
 | date_run | text | ISO-8601 date |
 
 ## Index-number-derived parameters
-Document the exact formulas here. Placeholder currently used in
-`scripts/generate_requests_resources.py` (replace before submission with a
-real member's index number):
-- random_seed = INDEX_NUMBER mod 10000, where INDEX_NUMBER is <replace with a real member index number> → currently a placeholder (10912345 mod 10000 = 2345)
+The brief requires at least three parameters derived from member index
+numbers (Section 2.iii). All three are implemented and computed (not
+hand-entered) in `src/main/java/com/campus/optimizer/IndexParams.java` —
+keep both in sync if the roster or formulas change.
 
-Still to decide and document once structures are built:
-- priority_weight = (sum of digits of index number) mod 5 + 1
-- hash_table_size = nearest prime to average team index number
+Team roster used (DCIT 204/308 Group 2 "Scythe", 15 members): 22018250
+(Robert Owoo, leader), 22128192 (Chris Nana Opoku), 22108048 (Blessing Owusu
+Frema), 22150775 (Kwabena Yeboah), 22018785 (Gabriel Ansah), 22332968 (Felix
+Kwame Amuzu), 22262952 (Ebenezer Acheampong Mintah), 22391866 (Brian
+Aborampah-Akoto), 22413990 (David Kwame Fiagbe), 22330946 (Iman Iman Yelba
+Anafo), 22299343 (Abdul-Hamid Fuseini), 22330254 (Lincoln Chinecherem Ofose),
+22386157 (Edwin Kwesi Frimpong), 22369431 (Marcel Yeboah), 22394237 (Nana Yaw
+Adu-Gyamfi Kyeremah).
+
+1. **random_seed** = INDEX_NUMBER mod 10000, where INDEX_NUMBER = 22128192
+   (Chris Nana Opoku) → 22128192 mod 10000 = **8192**. Used in
+   `scripts/generate_requests_resources.py` to seed `random.seed()` before
+   generating `service_requests_full.csv` and `resources_full.csv`.
+2. **priority_weight** = (sum of digits of INDEX_NUMBER) mod 5 + 1, using the
+   same INDEX_NUMBER as above → digit sum of 22128192 = 27, 27 mod 5 = 2,
+   +1 = **3**.
+3. **hash_table_size** = nearest prime to the average team index number.
+   Average of all 15 index numbers above = 22,262,413 — not a usable
+   bucket-array size on its own, so it is scaled down (mod 1000 → 413) before
+   finding the nearest prime → nearest prime to 413 is **409**. This is the
+   default bucket count the hash-table owner should pass into
+   `MyHashTable`'s constructor before running the load-factor experiment.
 
 ## Dataset provenance (evidence note)
 

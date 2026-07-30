@@ -9,8 +9,8 @@ from datetime import datetime, timedelta
 # SEED = last 4 digits = 2345. Document whichever formula you actually use in
 # docs/data_dictionary.md under "Index-number-derived parameters".
 # ---------------------------------------------------------------------------
-INDEX_NUMBER = 10912345          # <-- replace with a real member index number
-SEED = INDEX_NUMBER % 10000      # -> 2345
+INDEX_NUMBER = 22128192          # <-- real member index number
+SEED = INDEX_NUMBER % 10000      # -> 8192
 NUM_REQUESTS = 300
 NUM_RESOURCES = 30
 
